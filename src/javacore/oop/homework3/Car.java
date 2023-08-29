@@ -1,4 +1,4 @@
-package hmw3.Oop.block2;
+package javacore.oop.homework3;
 
 public class Car {
     public String modelName;
