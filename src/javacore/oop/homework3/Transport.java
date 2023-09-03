@@ -1,6 +1,6 @@
 package javacore.oop.homework3;
 
-public abstract class Transport implements Interface {
+public abstract class Transport implements Serviceable {
     private final String modelName;
     private final int wheelsCount;
 
@@ -11,20 +11,9 @@ public abstract class Transport implements Interface {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
-
     public String getModelName() {
         return modelName;
     }
-
-
     public int getWheelsCount() {
         return wheelsCount;
     }
